@@ -26,7 +26,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="decor-border"></div>
+                <div class="decor-border parallax-item" data-paroller-factor="0.2" data-paroller-type="foreground" data-paroller-direction="vertical"></div>
                 <div class="parallax-item about-parallax-item-left" data-paroller-factor="0.3" data-paroller-type="foreground" data-paroller-direction="vertical">
                     <img src="images/content/parallax/about/parallax-item-1.png" alt="">
                 </div>
