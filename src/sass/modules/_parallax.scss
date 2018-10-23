@@ -1,0 +1,7 @@
+.parallax-item {
+    position: absolute;
+
+    @media (max-width: map_get($grid-breakpoints, xl)) {
+        display: none;
+    }
+}

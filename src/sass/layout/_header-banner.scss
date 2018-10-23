@@ -1,0 +1,55 @@
+#header-banner {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-height: 1080px;
+    min-height: 600px;
+    overflow: hidden;
+    z-index: 2;
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+        padding: 120px 0 50px;
+        height: auto;
+    }
+}
+
+.header-banner-item {
+    position: relative;
+    padding: 65px 0;
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+        padding: 35px 15px;
+    }
+
+    &::before {
+        content: '';
+        @extend %pos;
+        left: -1000px;
+        right: -1000px;
+        background: rgba(#000, .65);
+        z-index: -2;
+    }
+}
+
+.header-banner-logo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding-top: 750px;
+    width: 100%;
+    max-width: 700px;
+    @extend %img;
+}
+
+.header-banner-footer {
+    @extend %pos;
+    top: auto;
+    bottom: 50px;
+    z-index: 20;
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+        bottom: -60px;
+    }
+}

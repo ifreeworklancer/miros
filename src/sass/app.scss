@@ -1,0 +1,17 @@
+@import "config/variables";
+@import "config/placeholders";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "base/body";
+@import "base/btn";
+@import "base/section";
+
+@import "modules/menu";
+@import "modules/sliders";
+@import "modules/video";
+@import "modules/parallax";
+
+@import "layout/app-header";
+@import "layout/header-banner";
+@import "layout/about";

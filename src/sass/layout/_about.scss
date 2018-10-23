@@ -1,0 +1,79 @@
+#about {
+    padding: 120px 0 180px;
+    overflow: hidden;
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+        padding: 50px 0 70px;
+    }
+
+    .decor-border {
+        position: absolute;
+        top: -30px;
+        left: 55px;
+        right: 15px;
+        bottom: -30px;
+        border: 2px solid $dark;
+        z-index: -4;
+
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+            left: 5px;
+            right: 5px;
+        }
+    }
+}
+
+.about-video {
+    position: relative;
+    padding-top: 280px;
+
+    &-img {
+        @extend %pos;
+        @extend %img;
+    }
+
+    .video-play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
+    }
+}
+
+.about-item {
+    padding: 0 30px;
+
+    .section-title {
+        margin: 0 auto 25px;
+        max-width: 340px;
+        @extend %square-decor;
+
+        &::before {
+            z-index: -2;
+            left: 90px;
+
+            @media (max-width: map_get($grid-breakpoints, md)) {
+                left: 30px;
+            }
+        }
+    }
+
+    &__text {
+        opacity: .5;
+    }
+}
+
+.about-parallax-item-left {
+    top: -30px;
+    left: -180px;
+
+    &--right {
+        bottom: -50px;
+        right: -130px;
+    }
+}
+
+.about-parallax-item-right {
+    bottom: -50px;
+    right: -130px;
+}

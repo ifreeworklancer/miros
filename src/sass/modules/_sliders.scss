@@ -1,0 +1,130 @@
+.slider-nav-arrow {
+
+    &-item {
+        position: relative;
+        cursor: pointer;
+        z-index: 10;
+
+        svg {
+            fill: #fff;
+        }
+    }
+}
+
+.slider-nav-num {
+    font-weight: bold;
+
+    &-item {
+        position: relative;
+
+        &--index {
+            padding-right: 5px;
+            font-size: 36px;
+            line-height: .7;
+            color: #fff;
+        }
+
+        &--last {
+            padding-left: 15px;
+            font-size: 24px;
+            color: #b7b7b7;
+
+            &::after {
+                content: '/';
+                position: absolute;
+                top: -2px;
+                left: 0;
+            }
+        }
+
+        &::before {
+            content: '0'
+        }
+    }
+}
+
+.header-banner-slider {
+    position: absolute !important;
+    top: 40%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 30;
+    display: none;
+
+    @media (min-width: map_get($grid-breakpoints, lg)) {
+        display: block;
+        max-width: 500px;
+    }
+
+    @media (min-width: map_get($grid-breakpoints, xl)) {
+        max-width: 650px;
+    }
+
+    .slider-nav {
+        position: absolute;
+        bottom: -60px;
+        left: 0;
+    }
+
+    .flickity-page-dots {
+        bottom: -50px;
+        pointer-events: none;
+
+        li {
+            margin: 0 15px;
+            width: 15px;
+            height: 15px;
+            border: 1px solid #fff;
+            border-radius: 0;
+            background: transparent;
+            transition: .5s;
+
+            &.is-selected {
+                border-radius: 50%;
+                background: #fff;
+            }
+        }
+    }
+
+    &-item {
+        @extend %pos;
+        padding: 40px 30px 300px;
+        width: 100%;
+        z-index: 4;
+        color: #fff;
+        box-shadow: 0px 16px 17px 1px rgba(0, 0, 0, 0.51);
+
+        &-description {
+
+            &-title {
+                margin-bottom: 20px;
+            }
+
+            &-info {
+                @extend %text-decor;
+
+                &:hover {
+
+                    &::after {
+                        transform: translateY(-50%) rotate(-30deg);
+                        box-shadow: 0px 2px 35px 8px rgba(255, 255, 255, 0.2);
+                    }
+                }
+            }
+        }
+
+        &-img {
+            @extend %pos;
+            @extend %img;
+            z-index: -3;
+
+
+            &::before {
+                content: '';
+                @extend %pos;
+                background: rgba(#000, .5);
+            }
+        }
+    }
+}
