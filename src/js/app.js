@@ -55,6 +55,15 @@ require('paroller.js');
      */
     $('.parallax-item').paroller();
 
+    /**
+     * Tabs
+     */
+    $('ul.presentation-tabs-list').on('click', 'li:not(.active)', function () {
+        $(this)
+            .addClass('active').siblings().removeClass('active')
+            .closest('section#presentation').find('div.presentation-tabs-content-item').removeClass('active').eq($(this).index()).addClass('active');
+    });
+
 
     /**
      * Slider

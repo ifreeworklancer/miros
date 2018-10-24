@@ -1,0 +1,100 @@
+#presentation {
+    padding: 150px 0 100px;
+    overflow: hidden;
+
+    .decor-border {
+        position: absolute;
+        top: -100px;
+        left: -70px;
+        bottom: -70px;
+        right: -1000px;
+        border: 2px solid #fff;
+    }
+}
+
+.presentation-item {
+    position: relative;
+    z-index: 10;
+
+
+    .section-title {
+        padding-left: 5px;
+    }
+}
+
+.presentation-tabs-list {
+    
+    &-item {
+        position: relative;
+        margin-bottom: 15px;
+        padding-left: 53px;
+        cursor: pointer;
+        opacity: .5;
+        transition: .5s;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 7px;
+            left: 3px;
+            width: 12px;
+            height: 12px;
+            border: 1px solid #fff;
+            background: transparent;
+            transition: .5s;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 4px;
+            left: 0;
+            width: 18px;
+            height: 18px;
+            border: 1px solid #fff;
+            transform: scale(0);
+            background: transparent;
+            transition: .5s;
+        }
+
+        &.active {
+            opacity: 1;
+
+            &::before {
+                background: #fff;
+            }
+
+            &::after {
+                transform: scale(1);
+            }
+        }
+    }
+}
+
+.presentation-tabs-content {
+    @extend %pos;
+    z-index: -3;
+
+    &-item {
+        @extend %pos;
+        @extend %img;
+        z-index: -3;
+        transform: translateX(100%);
+        transition: .5s;
+
+        &.active {
+            transform: translateX(0);
+        }
+    }
+}
+
+.presentation-btn {
+
+    .btn {
+        margin-top: -100px;
+
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+            margin-top: 0;
+        }
+    }
+}
