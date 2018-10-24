@@ -12444,6 +12444,21 @@ __webpack_require__(26);
     });
 
     /**
+     * Card 
+     */
+    $('.catalog-item-btn__more-info').hover(function () {
+        $(this).siblings().addClass("hover");
+    }, function () {
+        $(this).siblings().removeClass("hover");
+    });
+
+    $('.catalog-item-btn__sale').hover(function () {
+        $(this).siblings().addClass("hover");
+    }, function () {
+        $(this).siblings().removeClass("hover");
+    });
+
+    /**
      * Slider
      */
     if ($('.header-banner-slider')) {
@@ -12479,6 +12494,23 @@ __webpack_require__(26);
             var headerSliderlast = document.querySelector('.slider-nav-num-item--last');
 
             headerSliderlast.innerText = flkty1.getCellElements().length;
+        }
+    }
+
+    //Reviews
+
+    if ($('.reviews-slider')) {
+
+        var elem2 = document.querySelector('.reviews-slider');
+        if (elem2) {
+
+            var flkty2 = new __WEBPACK_IMPORTED_MODULE_1_flickity___default.a(elem2, {
+                prevNextButtons: false,
+                cellAlign: 'center',
+                contain: true,
+                draggable: true,
+                wrapAround: true
+            });
         }
     }
 })(jQuery);

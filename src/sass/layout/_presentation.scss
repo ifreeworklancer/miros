@@ -80,7 +80,7 @@
         @extend %img;
         z-index: -3;
         transform: translateX(100%);
-        transition: .5s;
+        transition: .7s;
 
         &.active {
             transform: translateX(0);

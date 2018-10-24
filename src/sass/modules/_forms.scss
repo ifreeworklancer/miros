@@ -1,0 +1,77 @@
+#form-constructor {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+        padding-left: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    select {
+        background: transparent;
+        border-bottom: 2px solid #fff;
+    }
+
+    button {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 0;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+
+        .line {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 2px;
+            transform: translate(-50%, -50%);
+            background: #fff;
+
+            &--goriz {
+                transform: translate(-50%, -50%) rotate(90deg);
+            }
+        }
+    }
+
+    .form-control-file {
+        display: none;
+    }
+
+    .label-placeholder {
+        font-size: 14px;
+    }
+
+    .decor-input {
+        position: relative;
+        display: block;
+        margin-top: 20px;
+        padding: 10px 40px;
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        border: 1px solid #fff;
+        cursor: pointer;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            width: 15px;
+            height: 15px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTAsNDh2NDE2aDUxMlY0OEgweiBNNDgwLDQzMkgzMlY4MGg0NDhWNDMyeiBNMzUyLDE2MGMwLDI2LjUxLDIxLjQ5LDQ4LDQ4LDQ4czQ4LTIxLjQ5LDQ4LTQ4cy0yMS40OS00OC00OC00OCAgIFMzNTIsMTMzLjQ5LDM1MiwxNjB6IE00NDgsNDAwSDY0bDk2LTI1NmwxMjgsMTYwbDY0LTQ4TDQ0OCw0MDB6IiBmaWxsPSIjRkZGRkZGIi8+PC9zdmc+);
+        }
+    }
+}

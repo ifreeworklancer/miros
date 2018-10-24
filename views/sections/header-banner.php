@@ -13,7 +13,7 @@
                         mollit anim id est laborum.
                     </p>
                     <a href="#" class="btn btn-decor">
-                        Каталог
+                        в каталог
                     </a>
                 </div>
             </div>

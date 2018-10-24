@@ -1,0 +1,19 @@
+#constructor {
+    padding: 100px 0;
+    background: #111111;
+    z-index: 4;
+
+    &::after {
+        content: '';
+        @extend %pos;
+        background: url('../images/icon/pattern.png') 0 0 repeat;
+        pointer-events: none;
+        opacity: .9;
+        z-index: -2;
+    }
+
+    .constructor-parallax-item {
+        top: -300px;
+        left: -180px;
+    }
+}

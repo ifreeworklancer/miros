@@ -1,0 +1,43 @@
+#stages {
+    padding: 100px 0;
+    background: #f2f2f2;
+}
+
+.stages-item {
+
+    &-content {
+        position: relative;
+        margin-left: 30px;
+        padding: 20px 50px;
+        background: #fff;
+        border: 1px solid #d7d7d7;
+        font-size: 16px;
+        z-index: 9;
+        transition: .5s;
+
+        &:hover {
+            box-shadow: 0px 0px 28px 7px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    &-value {
+        position: relative;
+        right: -10px;
+        bottom: -20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        background: $dark;
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        z-index: 10;
+    }
+}
+
+.stages-parallax-item {
+    top: 30px;
+    left: -120px;
+}

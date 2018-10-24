@@ -36,8 +36,7 @@
                     </a>
                 </div>
             </div>
-            <div class="decor-border parallax-item" data-paroller-factor="0.2" data-paroller-type="foreground"
-                data-paroller-direction="vertical"></div>
+            <div class="decor-border d-none d-xl-block"></div>
         </div>
     </div>
     <div class="presentation-tabs-content">

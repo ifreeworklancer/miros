@@ -64,6 +64,21 @@ require('paroller.js');
             .closest('section#presentation').find('div.presentation-tabs-content-item').removeClass('active').eq($(this).index()).addClass('active');
     });
 
+    /**
+     * Card 
+     */
+    $('.catalog-item-btn__more-info').hover(function () {
+        $(this).siblings().addClass("hover");
+    }, function () {
+        $(this).siblings().removeClass("hover");
+    });
+
+    $('.catalog-item-btn__sale').hover(function () {
+        $(this).siblings().addClass("hover");
+    }, function () {
+        $(this).siblings().removeClass("hover");
+    });
+
 
     /**
      * Slider
@@ -102,6 +117,24 @@ require('paroller.js');
             var headerSliderlast = document.querySelector('.slider-nav-num-item--last');
 
             headerSliderlast.innerText = flkty1.getCellElements().length;
+        }
+    }
+
+    //Reviews
+
+    if ($('.reviews-slider')) {
+
+        var elem2 = document.querySelector('.reviews-slider');
+        if (elem2) {
+
+            const flkty2 = new Flickity(elem2, {
+                prevNextButtons: false,
+                cellAlign: 'center',
+                contain: true,
+                draggable: true,
+                wrapAround: true,
+            });
+
         }
     }
 
