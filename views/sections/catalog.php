@@ -207,8 +207,8 @@
             </div>
         </div>
         <div class="catalog-parallax-item parallax-item" data-paroller-factor="0.3" data-paroller-type="foreground"
-                data-paroller-direction="vertical">
-            <img src="images/content/parallax/catalog/catalog-parallax-item.png" alt="">
+                data-paroller-direction="vertical" style="z-index: 100">
+            <img src="images/content/parallax/catalog/w-04.png" style="margin-right: -20px;" alt="">
         </div>
     </div>
 </section>

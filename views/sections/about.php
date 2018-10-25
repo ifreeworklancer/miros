@@ -30,11 +30,11 @@
                 data-paroller-direction="vertical"></div>
             <div class="parallax-item about-parallax-item-left" data-paroller-factor="0.3" data-paroller-type="foreground"
                 data-paroller-direction="vertical">
-                <img src="images/content/parallax/about/parallax-item-1.png" alt="">
+                <img src="images/content/parallax/about/w-01.png" style="margin-left: -90px;" alt="">
             </div>
             <div class="parallax-item about-parallax-item-right" data-paroller-factor="0.3" data-paroller-type="foreground"
                 data-paroller-direction="vertical">
-                <img src="images/content/parallax/about/parallax-item-2.png" alt="">
+                <img src="images/content/parallax/about/w-02.png" alt="">
             </div>
         </div>
     </div>

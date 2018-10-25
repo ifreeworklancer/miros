@@ -120,7 +120,7 @@
         </div>
         <div class="stages-parallax-item parallax-item" data-paroller-factor="0.3" data-paroller-type="foreground"
                 data-paroller-direction="vertical">
-            <img src="images/content/parallax/stages/stages-parallax-item.png" alt="">
+            <img src="images/content/parallax/stages/w-03.png" style="margin-left: -30px;" alt="">
         </div>
     </div>
 </section>
