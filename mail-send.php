@@ -5,10 +5,10 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
-	$package = $_POST['package'];
+	$package = $_POST['wallet'];
 
-	$to = 'admin@alterrafin.com';
-	$subject = 'Форма заявки с лендинга для Мирос';
+	$to = 'info@impressionbureau.pro';
+	$subject = 'Заявка с лендинга для Мирос';
 
 	$message = "
     <html>
@@ -19,14 +19,17 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
         <body>
         <h2>Заявка от {$name}</h2>
         <p>Email: {$email}</p>
-        <p>Телефон: {$phone}</p>
-        <p>Пакет: {$package}</p>";
+        <p>Телефон: {$phone}</p>";
+
+	if (!empty($package)) {
+		$message .= "<p>Кошелек: {$package}</p>\"";
+	}
 
     $message .= "
         </body>
         </html>
     ";
-	$headers = 'From: info@acrnm.pro' . "\r\n" .
+	$headers = 'From: info@impressionbureau.pro' . "\r\n" .
 			   'Reply-To: ' . $email . "\r\n" .
 			   'X-Mailer: PHP/' . phpversion();
 	$headers = 'MIME-Version: 1.0' . "\r\n";
