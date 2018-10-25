@@ -1,6 +1,6 @@
 <!-- Reviews -->
 <section id="reviews">
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
         <div class="col-sm-6">
             <h2 class="section-title text-center">
                 Отзывы

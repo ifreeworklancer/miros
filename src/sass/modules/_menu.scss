@@ -88,7 +88,7 @@
         &-item {
             position: relative;
             padding: 0 0 20px;
-            margin: 0 20px;
+            margin: 0 30px;
 
             @media (max-width: map_get($grid-breakpoints, xl)) {
                 margin: 0 0 15px;

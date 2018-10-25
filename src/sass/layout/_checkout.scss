@@ -18,3 +18,32 @@
         left: 120px;
     }
 }
+
+.purchased-wallet {
+    font-size: 14px;
+    color: #7f7f7f;
+    display: flex;
+    justify-content: space-between;
+
+    &-item {
+
+        &__title {
+            font-size: 14px;
+            color: #7f7f7f;
+        }
+
+        &__text {
+            font-size: 18px;
+            color: #fff;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 300px;overflow: hidden;
+        }
+    }
+
+    img {
+        width: 100px;
+        height: 55px;
+        border: 2px solid #fff;
+    }
+}

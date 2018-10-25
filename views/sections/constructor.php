@@ -1,5 +1,5 @@
 <!-- Constructor -->
-<section id="constructor">
+<!-- <section id="constructor">
     <div class="container position-relative">
         <div class="row">
             <div class="col-sm-9 col-lg-7">
@@ -40,4 +40,4 @@
             <img src="images/content/parallax/constructor/constructor-parallax-item.png" alt="">
         </div>
     </div>
-</section>
+</section> -->

@@ -9793,7 +9793,7 @@ section {
 .menu-list-item {
   position: relative;
   padding: 0 0 20px;
-  margin: 0 20px;
+  margin: 0 30px;
 }
 
 @media (max-width: 1200px) {
@@ -10758,6 +10758,7 @@ section {
 
 #reviews {
   padding: 120px 0 140px;
+  background: #f2f2f2;
 }
 
 #reviews::before {
@@ -10816,6 +10817,37 @@ section {
   left: 120px;
 }
 
+.purchased-wallet {
+  font-size: 14px;
+  color: #7f7f7f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.purchased-wallet-item__title {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+
+.purchased-wallet-item__text {
+  font-size: 18px;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.purchased-wallet img {
+  width: 100px;
+  height: 55px;
+  border: 2px solid #fff;
+}
+
 #app-footer {
   padding: 50px 0 20px;
   background: #000;
@@ -10825,9 +10857,13 @@ section {
   margin-bottom: 0;
 }
 
+.footer-menu-list-item {
+  margin: 0 30px;
+}
+
 @media (max-width: 576px) {
   .footer-menu-list-item {
-    margin-bottom: 20px;
+    margin: 0 0 20px;
   }
 }
 

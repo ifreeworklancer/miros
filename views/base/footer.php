@@ -2,8 +2,8 @@
     <div class="container position-relative">
         <div class="row">
             <div class="col-sm-6 mx-auto text-white">
-                <h2 class="section-title mb-5">
-                    Оформить заказ
+                <h2 id="checkout-title" class="section-title mb-5">
+                    Связаться с нами
                 </h2>
                 <form action="/mail-send.php" id="form-checkout">
                     <div class="form-group mb-5">
@@ -18,8 +18,11 @@
                         <label for="user-email--checkout" class="label-placeholder">Ваш E-mail</label>
                         <input type="email" name="email" class="form-control" id="user-email--checkout">
                     </div>
+                    <div class="purchased-wallet mb-5">
+                    </div>
+                    <input type="hidden" name="wallet">
                     <div class="text-center">
-                        <button class="btn btn-decor">Перейти к оплате</button>
+                        <button id="checkout-btn" class="btn btn-decor">Отправить</button>
                     </div>
                 </form>
             </div>
@@ -40,8 +43,8 @@
                 </a>
             </div>
             <div class="col-sm-10">
-                <nav class="footer-menu mr-0 mr-xl-5">
-                    <ul class="footer-menu-list list-unstyled d-flex flex-column flex-sm-row justify-content-sm-between align-items-center">
+                <nav class="footer-menu mr-0 mr-xl-5 d-flex justify-content-center justify-content-sm-end">
+                    <ul class="footer-menu-list list-unstyled d-inline-flex flex-column flex-sm-row align-items-center">
                         <li class="footer-menu-list-item">
                             <a href="#stages" class="footer-menu-list-item__link scroll-link">
                                 Как мы работаем
@@ -55,11 +58,6 @@
                         <li class="footer-menu-list-item">
                             <a href="#catalog" class="footer-menu-list-item__link scroll-link">
                                 Каталог
-                            </a>
-                        </li>
-                        <li class="footer-menu-list-item">
-                            <a href="#constructor" class="footer-menu-list-item__link scroll-link">
-                                Конструктор
                             </a>
                         </li>
                         <li class="footer-menu-list-item">

@@ -70,11 +70,6 @@
                                 </a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#constructor" class="menu-list-item__link scroll-link">
-                                    Конструктор
-                                </a>
-                            </li>
-                            <li class="menu-list-item">
                                 <a href="#reviews" class="menu-list-item__link scroll-link">
                                     Отзывы
                                 </a>

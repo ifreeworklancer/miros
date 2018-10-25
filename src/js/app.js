@@ -64,20 +64,6 @@ require('paroller.js');
             .closest('section#presentation').find('div.presentation-tabs-content-item').removeClass('active').eq($(this).index()).addClass('active');
     });
 
-    /**
-     * Card 
-     */
-    $('.catalog-item-btn__more-info').hover(function () {
-        $(this).siblings().addClass("hover");
-    }, function () {
-        $(this).siblings().removeClass("hover");
-    });
-
-    $('.catalog-item-btn__sale').hover(function () {
-        $(this).siblings().addClass("hover");
-    }, function () {
-        $(this).siblings().removeClass("hover");
-    });
 
     /**
      * Scroll
@@ -96,6 +82,28 @@ require('paroller.js');
             }, 1500);
         }
     });
+
+    /**
+     * Catalog card
+     */
+    $('[data-wallet]').on('click', function (e) {
+        e.preventDefault();
+        var id = $(this).data('wallet');
+        var name = $(this).parents('.catalog-item').find('.catalog-item-content-description__name').text();
+        var value = $(this).parents('.catalog-item').find('.catalog-item-content-description__value').text();
+        var img = $(this).parents('.catalog-item').find('.catalog-item-prev-img').data('img');
+
+        $('.purchased-wallet').html("<div class='purchased-wallet-item'><div class='purchased-wallet-item__title'>Выбранный товар</div><div class='purchased-wallet-item__text'>" +
+            name +
+            "</div></div><div class='purchased-wallet-item'><div class='purchased-wallet-item__title'>Цена</div><div class='purchased-wallet-item__text'>" +
+            value +
+            "</div></div><div class'purchased-wallet__img'><img src='"+img+"' alt='" +  name + "')>");
+
+        $('#checkout-title').text('Оформить заказ');
+        $('#checkout-btn').text('Перейти к оплате');
+        $('[name="wallet"]').val(id);
+        console.log(img);
+    })
 
     /**
      * Slider
