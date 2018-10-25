@@ -5,18 +5,18 @@
                 <h2 class="section-title mb-5">
                     Оформить заказ
                 </h2>
-                <form action="#" id="form-checkout">
+                <form action="/mail-send.php" id="form-checkout">
                     <div class="form-group mb-5">
                         <label for="user-name--checkout" class="label-placeholder">Ваше имя</label>
-                        <input type="text" class="form-control" id="user-name--checkout">
+                        <input type="text" name="name" class="form-control" id="user-name--checkout">
                     </div>
                     <div class="form-group mb-5">
                         <label for="user-phone--checkout" class="label-placeholder">Ваш Телефон</label>
-                        <input type="text" class="form-control" id="user-phone--checkout">
+                        <input type="tel" name="phone" class="form-control" id="user-phone--checkout">
                     </div>
                     <div class="form-group mb-5">
                         <label for="user-email--checkout" class="label-placeholder">Ваш E-mail</label>
-                        <input type="email" class="form-control" id="user-email--checkout">
+                        <input type="email" name="email" class="form-control" id="user-email--checkout">
                     </div>
                     <div class="text-center">
                         <button class="btn btn-decor">Перейти к оплате</button>
