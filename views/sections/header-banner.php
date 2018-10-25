@@ -12,7 +12,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                         mollit anim id est laborum.
                     </p>
-                    <a href="#" class="btn btn-decor">
+                    <a href="#catalog" class="btn btn-decor scroll-link">
                         в каталог
                     </a>
                 </div>
@@ -58,21 +58,21 @@
             </div>
         </div>
         <div class="header-banner-slider-item">
-            <div class="header-banner-slider-item-img" style="background-image: url('images/content/header-banner/header-banner-item-1.jpg');"></div>
+            <div class="header-banner-slider-item-img" style="background-image: url('images/content/header-banner/header-banner-item-2.jpg');"></div>
             <div class="header-banner-slider-item-description">
                 <h3 class="header-banner-slider-item-description-title">Нанесём оригинальную гравировку</h3>
                 <a href="#" class="header-banner-slider-item-description-info scroll-link">Перейти в конструктор</a>
             </div>
         </div>
         <div class="header-banner-slider-item">
-            <div class="header-banner-slider-item-img" style="background-image: url('images/content/header-banner/header-banner-item-1.jpg');"></div>
+            <div class="header-banner-slider-item-img" style="background-image: url('images/content/header-banner/header-banner-item-3.jpg');"></div>
             <div class="header-banner-slider-item-description">
                 <h3 class="header-banner-slider-item-description-title">Нанесём оригинальную гравировку</h3>
                 <a href="#" class="header-banner-slider-item-description-info scroll-link">Перейти в конструктор</a>
             </div>
         </div>
         <div class="header-banner-slider-item">
-            <div class="header-banner-slider-item-img" style="background-image: url('images/content/header-banner/header-banner-item-1.jpg');"></div>
+            <div class="header-banner-slider-item-img" style="background-image: url('images/content/header-banner/header-banner-item-4.jpg');"></div>
             <div class="header-banner-slider-item-description">
                 <h3 class="header-banner-slider-item-description-title">Нанесём оригинальную гравировку</h3>
                 <a href="#" class="header-banner-slider-item-description-info scroll-link">Перейти в конструктор</a>

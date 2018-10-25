@@ -55,38 +55,38 @@
                     <nav class="menu mr-0 mr-xl-5">
                         <ul class="menu-list list-unstyled d-flex flex-column flex-xl-row align-items-center">
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-item__link">
+                                <a href="#stages" class="menu-list-item__link scroll-link">
                                     Как мы работаем
                                 </a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-item__link">
+                                <a href="#presentation" class="menu-list-item__link scroll-link">
                                     Качество
                                 </a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-item__link">
+                                <a href="#catalog" class="menu-list-item__link scroll-link">
                                     Каталог
                                 </a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-item__link">
+                                <a href="#constructor" class="menu-list-item__link scroll-link">
                                     Конструктор
                                 </a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-item__link">
+                                <a href="#reviews" class="menu-list-item__link scroll-link">
                                     Отзывы
                                 </a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-item__link">
+                                <a href="#app-footer" class="menu-list-item__link scroll-link">
                                     Контакты
                                 </a>
                             </li>
                         </ul>
                     </nav>
-                    <a href="#" class="btn btn-simple">
+                    <a href="#catalog" class="btn btn-simple scroll-link">
                         Выбрать кошелек
                     </a>
                 </div>

@@ -1,0 +1,35 @@
+#app-footer {
+    padding: 50px 0 20px;
+    background: #000;
+}
+
+.footer-menu {
+
+    &-list {
+        margin-bottom: 0;
+
+        &-item {
+
+            @media (max-width: map_get($grid-breakpoints, sm)) {
+                margin-bottom: 20px;
+            }
+
+            &__link {
+                font-family: 'Oswald', sans-serif;
+                font-weight: bold;
+                font-size: 16px;
+                opacity: .7;
+                transition: .5s;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.footer-copyr-item {
+    font-size: 14px;
+    color: #7f7f7f;
+}

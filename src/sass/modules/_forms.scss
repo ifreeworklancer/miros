@@ -75,3 +75,56 @@
         }
     }
 }
+
+#form-checkout {
+
+    button {
+        color: #fff;
+
+        &:hover {
+            color: $dark;
+        }
+    }
+
+    .form-group {
+        position: relative;
+
+        &.in-focus {
+
+            .label-placeholder {
+                bottom: 100%;
+                font-size: 14px;
+            }
+
+            &::before {
+                width: 100%;
+                background: #fff;
+            }
+        }
+
+        .label-placeholder {
+            position: absolute;
+            bottom: 0;
+            color: #7f7f7f;
+            transition: .5s;
+            z-index: 10;
+            cursor: pointer;
+        }
+
+        .form-control {
+            background: transparent;
+            color: #fff;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 60px;
+            height: 2px;
+            background: #7f7f7f;
+            transition: .5s;
+        }
+    }
+}

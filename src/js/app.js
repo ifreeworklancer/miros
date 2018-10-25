@@ -79,6 +79,23 @@ require('paroller.js');
         $(this).siblings().removeClass("hover");
     });
 
+    /**
+     * Scroll
+     */
+    $(".scroll-link").on("click", function (event) {
+        event.preventDefault();
+
+        var id = $(this).attr('href');
+
+        if (id.length > 1) {
+
+            var top = $(id).offset().top;
+
+            $('body,html').animate({
+                scrollTop: top
+            }, 1500);
+        }
+    });
 
     /**
      * Slider

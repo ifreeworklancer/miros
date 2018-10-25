@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-12 mb-5">
                 <h2 class="section-title">
-                    Качество нашей продукции
+                    Этапы выполнения заказа
                 </h2>
             </div>
         </div>
