@@ -25,7 +25,16 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
     &-item {
+
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+            margin-bottom: 20px;
+        }
 
         &__title {
             font-size: 14px;

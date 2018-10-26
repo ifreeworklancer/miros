@@ -95,6 +95,17 @@ require('paroller.js');
     const name = $(this).parents('.catalog-item').find('.catalog-item-content-description__name').text();
     const value = $(this).parents('.catalog-item').find('.catalog-item-content-description__value').text();
     const img = $(this).parents('.catalog-item').find('.catalog-item-prev-img').data('img');
+    
+    var redirect = $(this).attr('href');
+
+    if (redirect.length > 1) {
+
+      var top = $(redirect).offset().top;
+
+      $('body,html').animate({
+        scrollTop: top
+      }, 1500);
+    }
 
     $('.purchased-wallet').html("<div class='purchased-wallet-item'><div class='purchased-wallet-item__title'>Выбранный товар</div><div class='purchased-wallet-item__text'>" +
       name +

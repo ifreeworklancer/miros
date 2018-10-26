@@ -28,7 +28,7 @@
                             </div>
                         </div>
                         <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale" data-wallet="1">Заказать</a>
+                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="1">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                             </div>
                         </div>
                         <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale" data-wallet="2">Заказать</a>
+                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="2">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                             </div>
                         </div>
                         <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale" data-wallet="3">Заказать</a>
+                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="3">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale" data-wallet="4">Заказать</a>
+                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="4">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                             </div>
                         </div>
                         <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale" data-wallet="5">Заказать</a>
+                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="5">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                             </div>
                         </div>
                         <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale" data-wallet="6">Заказать</a>
+                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="6">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                         <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale" data-wallet="7">Заказать</a>
+                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="7">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -179,7 +179,7 @@
                             </div>
                         </div>
                         <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale" data-wallet="8">Заказать</a>
+                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="8">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -200,7 +200,7 @@
                             </div>
                         </div>
                         <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale" data-wallet="9">Заказать</a>
+                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="9">Заказать</a>
                         </div>
                     </div>
                 </div>
