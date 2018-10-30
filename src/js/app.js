@@ -208,7 +208,7 @@ require('paroller.js');
 
   Array.from($('[type="tel"]')).map(t => {
     new IMask(t, {
-      mask: '+{380} (00) 000-00-00'
+      mask: '+{38} (000) 000-00-00'
     });
   });
 

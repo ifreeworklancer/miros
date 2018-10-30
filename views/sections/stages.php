@@ -8,7 +8,7 @@
                 </h2>
             </div>
         </div>
-        <div class="row align-items-end">
+        <div class="row">
             <div class="col-sm-6 col-lg-4">
                 <div class="stages-item">
                     <div class="stages-item-value">1</div>
