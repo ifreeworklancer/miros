@@ -7,10 +7,10 @@
                     <h2 class="section-title">
                         Качество нашей продукции
                     </h2>
-                    <p class="section-description my-4">
-                        Lorem ipsum doQlor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                    </p>
+<!--                    <p class="section-description my-4">-->
+<!--                        Lorem ipsum doQlor sit amet, consectetur adipiscing elit,-->
+<!--                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.-->
+<!--                    </p>-->
                     <ul class="presentation-tabs-list list-unstyled">
                         <li class="presentation-tabs-list-item active">
                             Кожа наивысшего качества
