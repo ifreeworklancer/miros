@@ -46,7 +46,7 @@
     <div class="container">
         <div class="row justify-content-center align-items-center">
             <div class="col-sm-2 d-flex justify-content-center mb-4 mb-sm-0">
-                <a href="#" class="logo d-inline-block">
+                <a href="#app-header" class="logo d-inline-block">
                     <img src="/images/icon/logo/logo.png" alt="">
                 </a>
             </div>
@@ -54,27 +54,27 @@
                 <nav class="footer-menu mr-0 mr-xl-5 d-flex justify-content-center justify-content-sm-end">
                     <ul class="footer-menu-list list-unstyled d-inline-flex flex-column flex-sm-row align-items-center">
                         <li class="footer-menu-list-item">
-                            <a href="/#stages" class="footer-menu-list-item__link scroll-link">
+                            <a href="#stages" class="footer-menu-list-item__link scroll-link">
                                 Как мы работаем
                             </a>
                         </li>
                         <li class="footer-menu-list-item">
-                            <a href="/#presentation" class="footer-menu-list-item__link scroll-link">
+                            <a href="#presentation" class="footer-menu-list-item__link scroll-link">
                                 Качество
                             </a>
                         </li>
                         <li class="footer-menu-list-item">
-                            <a href="/#catalog" class="footer-menu-list-item__link scroll-link">
+                            <a href="#catalog" class="footer-menu-list-item__link scroll-link">
                                 Каталог
                             </a>
                         </li>
                         <li class="footer-menu-list-item">
-                            <a href="/#reviews" class="footer-menu-list-item__link scroll-link">
+                            <a href="#reviews" class="footer-menu-list-item__link scroll-link">
                                 Отзывы
                             </a>
                         </li>
                         <li class="footer-menu-list-item">
-                            <a href="/#app-footer" class="footer-menu-list-item__link scroll-link">
+                            <a href="#app-footer" class="footer-menu-list-item__link scroll-link">
                                 Контакты
                             </a>
                         </li>
@@ -129,5 +129,4 @@
 <script src="/dist/app.js"></script>
 
 </body>
-
 </html>
