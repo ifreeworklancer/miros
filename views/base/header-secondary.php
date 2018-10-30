@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Miros</title>
+    <title>Miros | Кожанные кошельки ручной работы с именной гравировкой</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="/dist/app.css">
+
+    <meta property="og:type" content="site">
+    <meta property="og:title" content="Кожанные кошельки ручной работы с именной гравировкой">
+    <meta property="og:site_name" content="Miros">
+    <meta property="og:url" content="https://miros-leather.com/">
+    <meta property="og:image" content="https://miros-leather.com/images/content/presentation/presentation-item-1.jpg">
 
     <link rel="shortcut icon" href="https://static.tildacdn.com/tild3664-6331-4836-b139-396235616435/favicon.ico"
           type="image/x-icon"/>
