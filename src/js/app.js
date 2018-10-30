@@ -8,12 +8,11 @@ window.jQuery = window.$ = jquery;
 require('paroller.js');
 
 (function () {
-
+  const menu = $('.menu');
   /**
    * Burger-menu
    */
   $('.burger-menu').click(function () {
-    var menu = $('.menu');
     $(this).toggleClass('active');
     if (menu.is(':visible')) {
       menu.slideUp();
@@ -67,7 +66,6 @@ require('paroller.js');
       .closest('section#presentation').find('div.presentation-tabs-content-item').removeClass('active').eq($(this).index()).addClass('active');
   });
 
-
   /**
    * Scroll
    */
@@ -77,12 +75,16 @@ require('paroller.js');
     var id = $(this).attr('href');
 
     if (id.length > 1) {
-
       var top = $(id).offset().top;
 
       $('body,html').animate({
         scrollTop: top
       }, 1500);
+
+      if (menu.is(':visible') && $('.burger-menu').hasClass('active')) {
+        $('.burger-menu').removeClass('active');
+        menu.slideUp()
+      }
     }
   });
 
