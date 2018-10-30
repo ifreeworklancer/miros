@@ -6,6 +6,7 @@
     width: 30px;
     height: 30px;
     cursor: pointer;
+    z-index: 9999;
 
     .line {
         margin-bottom: 8px;
@@ -43,7 +44,6 @@
 
     
     &.active {
-
         .line {
             width: 0;
             opacity: .6;
@@ -79,6 +79,7 @@
         align-items: center;
         background: $dark;
         display: none;
+        z-index: 9998;
     }
 
     &-list {
