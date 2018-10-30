@@ -124,7 +124,7 @@
             <img src="/images/content/parallax/stages/w-03.png" style="margin-left: -30px;" alt="">
         </div>
 
-        <div class="parallax-item" data-paroller-factor="0.3" data-paroller-type="foreground"
+        <div class="parallax-item" data-paroller-factor="0.1" data-paroller-type="foreground"
              data-paroller-direction="vertical"
         style="left: 100%; bottom: 100px; width: 141px; height: 290px; position: absolute;">
             <img src="/images/content/man_Miros.png"
