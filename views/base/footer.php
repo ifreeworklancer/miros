@@ -8,15 +8,15 @@
                 <form action="/mail-send.php" id="form-checkout">
                     <div class="form-group mb-5">
                         <label for="user-name--checkout" class="label-placeholder">Ваше имя</label>
-                        <input type="text" name="name" class="form-control" id="user-name--checkout">
+                        <input type="text" name="name" class="form-control" id="user-name--checkout" required>
                     </div>
                     <div class="form-group mb-5">
                         <label for="user-phone--checkout" class="label-placeholder">Ваш Телефон</label>
-                        <input type="tel" name="phone" class="form-control" id="user-phone--checkout">
+                        <input type="tel" name="phone" class="form-control" id="user-phone--checkout" required>
                     </div>
                     <div class="form-group mb-5">
                         <label for="user-email--checkout" class="label-placeholder">Ваш E-mail</label>
-                        <input type="email" name="email" class="form-control" id="user-email--checkout">
+                        <input type="email" name="email" class="form-control" id="user-email--checkout" required>
                     </div>
                     <div class="purchased-wallet mb-5">
                     </div>
@@ -39,34 +39,34 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-sm-2 d-flex justify-content-center mb-4 mb-sm-0">
                 <a href="#" class="logo d-inline-block">
-                    <img src="images/icon/logo/logo.png" alt="">
+                    <img src="/images/icon/logo/logo.png" alt="">
                 </a>
             </div>
             <div class="col-sm-10">
                 <nav class="footer-menu mr-0 mr-xl-5 d-flex justify-content-center justify-content-sm-end">
                     <ul class="footer-menu-list list-unstyled d-inline-flex flex-column flex-sm-row align-items-center">
                         <li class="footer-menu-list-item">
-                            <a href="#stages" class="footer-menu-list-item__link scroll-link">
+                            <a href="/#stages" class="footer-menu-list-item__link scroll-link">
                                 Как мы работаем
                             </a>
                         </li>
                         <li class="footer-menu-list-item">
-                            <a href="#presentation" class="footer-menu-list-item__link scroll-link">
+                            <a href="/#presentation" class="footer-menu-list-item__link scroll-link">
                                 Качество
                             </a>
                         </li>
                         <li class="footer-menu-list-item">
-                            <a href="#catalog" class="footer-menu-list-item__link scroll-link">
+                            <a href="/#catalog" class="footer-menu-list-item__link scroll-link">
                                 Каталог
                             </a>
                         </li>
                         <li class="footer-menu-list-item">
-                            <a href="#reviews" class="footer-menu-list-item__link scroll-link">
+                            <a href="/#reviews" class="footer-menu-list-item__link scroll-link">
                                 Отзывы
                             </a>
                         </li>
                         <li class="footer-menu-list-item">
-                            <a href="#app-footer" class="footer-menu-list-item__link scroll-link">
+                            <a href="/#app-footer" class="footer-menu-list-item__link scroll-link">
                                 Контакты
                             </a>
                         </li>
@@ -77,7 +77,7 @@
         <div class="row justify-content-center justify-content-sm-between align-items-center mt-5">
             <div class="col-sm-2 text-center p-0">
                 <div class="footer-copyr-item">
-                    2018 Все права защищены
+                    &copy; <?= date('Y') ?> Все права защищены
                 </div>
             </div>
             <div class="col-sm-2 my-4 my-sm-0">
@@ -109,7 +109,8 @@
             </div>
             <div class="col-sm-3 text-center p-0">
                 <div class="footer-copyr-item">
-                    Дизайн и разработка Impression Bureau
+                    Дизайн и разработка
+                    <a href="https://impressionbureau.pro" target="_blank">Impression.Bureau</a><sub>2018</sub>
                 </div>
             </div>
         </div>
@@ -117,7 +118,7 @@
 </footer>
 
 <!-- Script -->
-<script src="dist/app.js"></script>
+<script src="/dist/app.js"></script>
 
 </body>
 
