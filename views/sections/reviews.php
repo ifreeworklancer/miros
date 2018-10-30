@@ -36,7 +36,7 @@ $reviews = [
 
                     <div class="reviews-slider-item">
                         <div class="reviews-slider-item-img"
-                             style="background-image: url('<?= $review['avatar'] ?>);"></div>
+                             style="background-image: url(<?= $review['avatar'] ?>);"></div>
                         <div class="reviews-slider-item-content">
                             <p class="reviews-slider-item-content__descr">
 								<?= $review['body'] ?>
