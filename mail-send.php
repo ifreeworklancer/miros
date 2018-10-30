@@ -7,7 +7,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 	$phone = $_POST['phone'];
 	$package = $_POST['wallet'];
 
-	$to = 'info@impressionbureau.pro';
+	$to = 'mirosopt@gmail.com';
 	$subject = 'Заявка с лендинга для Мирос';
 
 	$message = "
