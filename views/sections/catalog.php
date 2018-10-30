@@ -1,3 +1,14 @@
+<?php
+$products = [
+	[
+		'title' => 'Черный кожаный кошелек',
+		'price' => '699.00грн',
+		'img1' => 'IMG_2509Edit1.jpg',
+		'img2' => 'IMG_2555-Edit-Edit.jpg',
+	],
+];
+?>
+
 <!-- Catalog -->
 <section id="catalog">
     <div class="container position-relative">
@@ -6,208 +17,41 @@
                 <h2 class="section-title pl-3">
                     Каталог товаров
                 </h2>
-<!--                <p class="section-descr">-->
-<!--                    lorem....-->
-<!--                </p>-->
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6 col-lg-4 p-0">
-                <div class="catalog-item">
-                    <div class="catalog-item-prev">
-                        <div class="catalog-item-prev-img" data-img="images/content/catalog/catalog-item-1.jpg" style="background-image: url('images/content/catalog/catalog-item-1.jpg');"></div>
-                    </div>
-                    <div class="catalog-item-content">
-                        <div class="catalog-item-content-img" style="background-image: url('images/content/catalog/catalog-item-3.jpg');"></div>
-                        <div class="catalog-item-content-description">
-                            <div class="catalog-item-content-description__name">
-                                Чёрный кошелек из натуральной кожи
-                            </div>
-                            <div class="catalog-item-content-description__value">
-                                929 грн
-                            </div>
+        <div class="row justify-content-center">
+
+			<?php foreach ($products as $product) : ?>
+                <div class="col-sm-6 col-lg-4 p-0">
+                    <div class="catalog-item">
+                        <div class="catalog-item-prev">
+                            <div class="catalog-item-prev-img"
+                                 data-img="/images/products/<?= $product['preview'] ?>"
+                                 style="background-image: url('/images/products/<?= $product['img1'] ?>');"></div>
                         </div>
-                        <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="1">Заказать</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 px-1">
-                <div class="catalog-item">
-                    <div class="catalog-item-prev">
-                        <div class="catalog-item-prev-img" data-img="images/content/catalog/catalog-item-2.jpg" style="background-image: url('images/content/catalog/catalog-item-2.jpg');"></div>
-                    </div>
-                    <div class="catalog-item-content">
-                        <div class="catalog-item-content-img" style="background-image: url('images/content/catalog/catalog-item-4.jpg');"></div>
-                        <div class="catalog-item-content-description">
-                            <div class="catalog-item-content-description__name">
-                                Чёрный кошелек из натуральной кожи
+                        <div class="catalog-item-content">
+                            <div class="catalog-item-content-img"
+                                 style="background-image: url('/images/products/<?= $product['img1'] ?>');"></div>
+                            <div class="catalog-item-content-description">
+                                <div class="catalog-item-content-description__name">
+									<?= $product['title'] ?>
+                                </div>
+                                <div class="catalog-item-content-description__value">
+									<?= $product['price'] ?>
+                                </div>
                             </div>
-                            <div class="catalog-item-content-description__value">
-                                929 грн
+                            <div class="catalog-item-content-nav d-flex">
+                                <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link"
+                                   data-wallet="<?= $product['title'] ?>">Заказать</a>
                             </div>
-                        </div>
-                        <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="2">Заказать</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-lg-4 p-0">
-                <div class="catalog-item">
-                    <div class="catalog-item-prev">
-                        <div class="catalog-item-prev-img" data-img="images/content/catalog/catalog-item-1.jpg" style="background-image: url('images/content/catalog/catalog-item-1.jpg');"></div>
-                    </div>
-                    <div class="catalog-item-content">
-                        <div class="catalog-item-content-img" style="background-image: url('images/content/catalog/catalog-item-3.jpg');"></div>
-                        <div class="catalog-item-content-description">
-                            <div class="catalog-item-content-description__name">
-                                Чёрный кошелек из натуральной кожи
-                            </div>
-                            <div class="catalog-item-content-description__value">
-                                929 грн
-                            </div>
-                        </div>
-                        <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="3">Заказать</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 col-lg-4 p-0">
-                <div class="catalog-item">
-                    <div class="catalog-item-prev">
-                        <div class="catalog-item-prev-img" data-img="images/content/catalog/catalog-item-2.jpg" style="background-image: url('images/content/catalog/catalog-item-2.jpg');"></div>
-                    </div>
-                    <div class="catalog-item-content">
-                        <div class="catalog-item-content-img" style="background-image: url('images/content/catalog/catalog-item-4.jpg');"></div>
-                        <div class="catalog-item-content-description">
-                            <div class="catalog-item-content-description__name">
-                                Чёрный кошелек из натуральной кожи
-                            </div>
-                            <div class="catalog-item-content-description__value">
-                                929 грн
-                            </div>
-                        </div>
-                        <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="4">Заказать</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 px-1">
-                <div class="catalog-item">
-                    <div class="catalog-item-prev">
-                        <div class="catalog-item-prev-img" data-img="images/content/catalog/catalog-item-1.jpg" style="background-image: url('images/content/catalog/catalog-item-1.jpg');"></div>
-                    </div>
-                    <div class="catalog-item-content">
-                        <div class="catalog-item-content-img" style="background-image: url('images/content/catalog/catalog-item-3.jpg');"></div>
-                        <div class="catalog-item-content-description">
-                            <div class="catalog-item-content-description__name">
-                                Чёрный кошелек из натуральной кожи
-                            </div>
-                            <div class="catalog-item-content-description__value">
-                                929 грн
-                            </div>
-                        </div>
-                        <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="5">Заказать</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-lg-4 p-0">
-                <div class="catalog-item">
-                    <div class="catalog-item-prev">
-                        <div class="catalog-item-prev-img" data-img="images/content/catalog/catalog-item-2.jpg" style="background-image: url('images/content/catalog/catalog-item-2.jpg');"></div>
-                    </div>
-                    <div class="catalog-item-content">
-                        <div class="catalog-item-content-img" style="background-image: url('images/content/catalog/catalog-item-4.jpg');"></div>
-                        <div class="catalog-item-content-description">
-                            <div class="catalog-item-content-description__name">
-                                Чёрный кошелек из натуральной кожи
-                            </div>
-                            <div class="catalog-item-content-description__value">
-                                929 грн
-                            </div>
-                        </div>
-                        <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="6">Заказать</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 col-lg-4 p-0">
-                <div class="catalog-item">
-                    <div class="catalog-item-prev">
-                        <div class="catalog-item-prev-img" data-img="images/content/catalog/catalog-item-1.jpg" style="background-image: url('images/content/catalog/catalog-item-1.jpg');"></div>
-                    </div>
-                    <div class="catalog-item-content">
-                        <div class="catalog-item-content-img" style="background-image: url('images/content/catalog/catalog-item-3.jpg');"></div>
-                        <div class="catalog-item-content-description">
-                            <div class="catalog-item-content-description__name">
-                                Чёрный кошелек из натуральной кожи
-                            </div>
-                            <div class="catalog-item-content-description__value">
-                                929 грн
-                            </div>
-                        </div>
-                        <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="7">Заказать</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 px-1">
-                <div class="catalog-item">
-                    <div class="catalog-item-prev">
-                        <div class="catalog-item-prev-img" data-img="images/content/catalog/catalog-item-2.jpg" style="background-image: url('images/content/catalog/catalog-item-2.jpg');"></div>
-                    </div>
-                    <div class="catalog-item-content">
-                        <div class="catalog-item-content-img" style="background-image: url('images/content/catalog/catalog-item-4.jpg');"></div>
-                        <div class="catalog-item-content-description">
-                            <div class="catalog-item-content-description__name">
-                                Чёрный кошелек из натуральной кожи
-                            </div>
-                            <div class="catalog-item-content-description__value">
-                                929 грн
-                            </div>
-                        </div>
-                        <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="8">Заказать</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-lg-4 p-0">
-                <div class="catalog-item">
-                    <div class="catalog-item-prev">
-                        <div class="catalog-item-prev-img" data-img="images/content/catalog/catalog-item-1.jpg" style="background-image: url('images/content/catalog/catalog-item-1.jpg');"></div>
-                    </div>
-                    <div class="catalog-item-content">
-                        <div class="catalog-item-content-img" style="background-image: url('images/content/catalog/catalog-item-3.jpg');"></div>
-                        <div class="catalog-item-content-description">
-                            <div class="catalog-item-content-description__name">
-                                Чёрный кошелек из натуральной кожи
-                            </div>
-                            <div class="catalog-item-content-description__value">
-                                929 грн
-                            </div>
-                        </div>
-                        <div class="catalog-item-content-nav d-flex">
-                            <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link" data-wallet="9">Заказать</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			<?php endforeach; ?>
+
         </div>
         <div class="catalog-parallax-item parallax-item" data-paroller-factor="0.3" data-paroller-type="foreground"
-                data-paroller-direction="vertical" style="z-index: 100">
+             data-paroller-direction="vertical" style="z-index: 100">
             <img src="images/content/parallax/catalog/w-04.png" style="margin-right: -20px;" alt="">
         </div>
     </div>
