@@ -124,51 +124,51 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-1">
-                <a href="#" class="logo">
+                <a href="/" class="logo">
                     <img src="/images/icon/logo/logo.png" alt="logo">
                 </a>
             </div>
-            <div class="col-sm-11 d-flex justify-content-center align-items-center">
-                <nav class="menu mr-0 mr-xl-5">
-                    <ul class="menu-list list-unstyled d-flex flex-column flex-xl-row align-items-center">
-                        <li class="menu-list-item">
-                            <a href="#stages" class="menu-list-item__link scroll-link">
-                                Как мы работаем
-                            </a>
-                        </li>
-                        <li class="menu-list-item">
-                            <a href="/#presentation" class="menu-list-item__link scroll-link">
-                                Качество
-                            </a>
-                        </li>
-                        <li class="menu-list-item">
-                            <a href="/#catalog" class="menu-list-item__link scroll-link">
-                                Каталог
-                            </a>
-                        </li>
-                        <li class="menu-list-item">
-                            <a href="/#reviews" class="menu-list-item__link scroll-link">
-                                Отзывы
-                            </a>
-                        </li>
-                        <li class="menu-list-item">
-                            <a href="/#app-footer" class="menu-list-item__link scroll-link">
-                                Контакты
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <a href="/#catalog" class="btn btn-simple scroll-link">
-                    Выбрать кошелек
-                </a>
-            </div>
-            <div class="burger-menu d-xl-none d-flex flex-column justify-content-center align-items-center">
-                <div class="line line--top"></div>
-                <div class="line line--middle"></div>
-                <div class="line line--bottom"></div>
-                <div class="line line--left"></div>
-                <div class="line line--right"></div>
-            </div>
+<!--            <div class="col-sm-11 d-flex justify-content-center align-items-center">-->
+<!--                <nav class="menu mr-0 mr-xl-5">-->
+<!--                    <ul class="menu-list list-unstyled d-flex flex-column flex-xl-row align-items-center">-->
+<!--                        <li class="menu-list-item">-->
+<!--                            <a href="/#stages" class="menu-list-item__link scroll-link">-->
+<!--                                Как мы работаем-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li class="menu-list-item">-->
+<!--                            <a href="/#presentation" class="menu-list-item__link scroll-link">-->
+<!--                                Качество-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li class="menu-list-item">-->
+<!--                            <a href="/#catalog" class="menu-list-item__link scroll-link">-->
+<!--                                Каталог-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li class="menu-list-item">-->
+<!--                            <a href="/#reviews" class="menu-list-item__link scroll-link">-->
+<!--                                Отзывы-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li class="menu-list-item">-->
+<!--                            <a href="/#app-footer" class="menu-list-item__link scroll-link">-->
+<!--                                Контакты-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </nav>-->
+<!--                <a href="/#catalog" class="btn btn-simple scroll-link">-->
+<!--                    Выбрать кошелек-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="burger-menu d-xl-none d-flex flex-column justify-content-center align-items-center">-->
+<!--                <div class="line line--top"></div>-->
+<!--                <div class="line line--middle"></div>-->
+<!--                <div class="line line--bottom"></div>-->
+<!--                <div class="line line--left"></div>-->
+<!--                <div class="line line--right"></div>-->
+<!--            </div>-->
         </div>
     </div>
 </header>
