@@ -113,7 +113,7 @@
             <div class="col-sm-3 text-center p-0">
                 <div class="footer-copyr-item">
                     Дизайн и разработка
-                    <a href="https://impressionbureau.pro" target="_blank">Impression.Bureau</a><sub>2018</sub>
+                    <a href="https://impressionbureau.pro" target="_blank">Impression.Bureau</a><sup>2018</sup>
                 </div>
             </div>
         </div>
