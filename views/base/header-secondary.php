@@ -9,6 +9,19 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="/dist/app.css">
 
+    <link rel="shortcut icon" href="https://static.tildacdn.com/tild3664-6331-4836-b139-396235616435/favicon.ico"
+          type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="https://static.tildacdn.com/tild3463-6362-4961-a334-373365346561/MiroS.png">
+    <link rel="apple-touch-icon" sizes="76x76"
+          href="https://static.tildacdn.com/tild3463-6362-4961-a334-373365346561/MiroS.png">
+    <link rel="apple-touch-icon" sizes="152x152"
+          href="https://static.tildacdn.com/tild3463-6362-4961-a334-373365346561/MiroS.png">
+    <link rel="apple-touch-startup-image"
+          href="https://static.tildacdn.com/tild3463-6362-4961-a334-373365346561/MiroS.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage"
+          content="https://static.tildacdn.com/tild3631-6532-4334-a237-323832363738/MiroS.png">
+
     <!-- Facebook Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
