@@ -1,4 +1,4 @@
-<?php require_once(__DIR__ . '/views/base/header.php'); ?>
+<?php require_once(__DIR__ . '/views/base/header-secondary.php'); ?>
 
     <section id="thanks">
         <div class="container h-100 d-flex justify-content-center align-items-center">
