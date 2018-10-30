@@ -26,7 +26,6 @@ require('paroller.js');
   /**
    * Form-label
    */
-
   $('.form-control').on('focus', function () {
     $(this).parent().addClass('in-focus');
   });
