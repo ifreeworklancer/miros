@@ -1,24 +1,62 @@
 .video-play {
-    opacity: .5;
-    color: #fff;
-    transition: .5s;
-    cursor: pointer;
+  opacity: .5;
+  color: #fff;
+  transition: .5s;
+  cursor: pointer;
 
-    &-text {
+  &-text {
 
-        @media (max-width: map_get($grid-breakpoints, md)) {
-            font-size: 14px;
-        }
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      font-size: 14px;
     }
+  }
 
-    &-icon {
-        
-        svg {
-            fill: #fff;
-        }
-    }
+  &-icon {
 
-    &:hover {
-        opacity: 1;
+    svg {
+      fill: #fff;
     }
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.outer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba($body-color, 0.9);
+  z-index: 9999;
+
+  iframe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  &::before, &::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 2px;
+    content: '';
+    background-color: #fff;
+    z-index: 5;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
 }

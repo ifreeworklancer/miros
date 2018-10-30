@@ -4,10 +4,10 @@
         <div class="row align-items-center position-relative">
             <div class="col-sm-6 p-0">
                 <div class="about-video mb-4 mb-sm-0">
-                    <div class="about-video-img" style="background-image: url('images/content/about/about-item-1.jpg');"></div>
+                    <div class="about-video-img" style="background-image: url('/images/content/about/about-item-1.jpg');"></div>
                     <div class="video-play d-flex align-items-center">
                         <div class="video-play-text mr-4">Смотреть видео</div>
-                        <div class="video-play-icon">
+                        <div class="video-play-icon" data-youtube="Vu6dDbdosaI">
                             <svg width="35" height="45">
                                 <use xlink:href="#play_video-icon"></use>
                             </svg>
@@ -21,9 +21,11 @@
                         Мы вложили душу в нашу продукцию
                     </h2>
                     <p class="about-item__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        Собственное производство - это гарантия контроля качества на всех этапах.
                     </p>
+                    <div class="about-item__text">
+                        Только натуральная кожа высшего сорта. Мы лично выбираем лучшую кожу для произзводства.
+                    </div>
                 </div>
             </div>
             <div class="decor-border parallax-item" data-paroller-factor="0.2" data-paroller-type="foreground"

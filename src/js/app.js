@@ -182,8 +182,7 @@ require('paroller.js');
 
     }
   }
-
-
+  /** Mobile check */
   window.mobilecheck = function () {
     var check = false;
     (function (a) {
@@ -206,10 +205,42 @@ require('paroller.js');
     $video.html('<video src="' + $link + '" loop muted autoplay></video>')
   }
 
+  /** Phone mask */
   Array.from($('[type="tel"]')).map(t => {
     new IMask(t, {
       mask: '+{38} (000) 000-00-00'
     });
   });
+
+  /** Youtube video */
+  $('[data-youtube]').on('click', function (e) {
+    e.preventDefault();
+
+    var id = $(this).data('youtube'),
+      padding = $(window).width() > 768 ? 120 : 30,
+      ratio = 608 / 1080,
+      width = $(window).width() - padding,
+      height = width * ratio,
+      html = '<iframe style="width: ' + width + 'px; height: ' + height + 'px;" ' +
+        'src="https://www.youtube.com/embed/' +
+        id + '?feature=oembed&autoplay=1" frameborder="0" gesture="media" allowfullscreen></iframe>';
+
+    $('body').append('<div class="outer">' + html + '</div>');
+  });
+
+  $(document).mouseup(function (e) {
+    var container = $('.outer iframe');
+
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+      $('.outer').remove();
+    }
+  });
+
+  $(document).on('keyup', function (e) {
+    console.log(e.keyCode)
+    if (e.keyCode === 27) {
+      $('.outer').remove();
+    }
+  })
 
 })(jQuery);
