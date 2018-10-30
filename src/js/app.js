@@ -108,11 +108,11 @@ require('paroller.js');
       }, 1500);
     }
 
-    $('.purchased-wallet').html("<div class='purchased-wallet-item'><div class='purchased-wallet-item__title'>Выбранный товар</div><div class='purchased-wallet-item__text'>" +
+    $('.purchased-wallet').html("<div class='purchased-wallet-item mr-1'><div class='purchased-wallet-item__title'>Выбранный товар</div><div class='purchased-wallet-item__text'>" +
       name +
-      "</div></div><div class='purchased-wallet-item'><div class='purchased-wallet-item__title'>Цена</div><div class='purchased-wallet-item__text'>" +
+      "</div></div><div class='purchased-wallet-item mr-1'><div class='purchased-wallet-item__title'>Цена</div><div class='purchased-wallet-item__text'>" +
       value +
-      "</div></div><div class'purchased-wallet__img'><img src='" + img + "' alt='" + name + "')>");
+      "</div></div><div class='purchased-wallet__img'><img src='" + img + "' alt='" + name + "')>");
 
     $('#checkout-title').text('Оформить заказ');
     $('#checkout-btn').text('Перейти к оплате');

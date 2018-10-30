@@ -18,9 +18,12 @@
                         <label for="user-email--checkout" class="label-placeholder">Ваш E-mail</label>
                         <input type="email" name="email" class="form-control" id="user-email--checkout" required>
                     </div>
-                    <div class="purchased-wallet mb-5">
+
+                    <div class="purchased-wallet d-flex align-items-center mb-5">
                     </div>
+
                     <input type="hidden" name="wallet">
+
                     <div class="text-center">
                         <button id="checkout-btn" class="btn btn-decor">Отправить</button>
                     </div>
