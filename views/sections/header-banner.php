@@ -5,12 +5,10 @@
             <div class="col-sm-10 col-lg-6 p-0">
                 <div class="header-banner-item text-white">
                     <h1 class="section-title text-uppercase">
-                        АВТОРСКАЯ МАСТЕРСКАЯ КОЖАНЫХ ИЗДЕЛИЙ MIROS
+                        Кожаные кошельки ручной работы
                     </h1>
                     <p class="header-banner-item__text my-4">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.
+                        Именная гравировка в подарок. Пожизненная гарантия.
                     </p>
                     <a href="#catalog" class="btn btn-decor scroll-link">
                         в каталог
