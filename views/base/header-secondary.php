@@ -122,7 +122,7 @@
 
 <header id="app-header">
     <div class="container text-center">
-        <a href="/" class="logo">
+        <a href="/" class="logo mx-auto">
             <img src="/images/icon/logo/logo.png" alt="logo">
         </a>
     </div>
