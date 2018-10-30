@@ -5,7 +5,7 @@
                 <h2 id="checkout-title" class="section-title mb-5">
                     Связаться с нами
                 </h2>
-                <form action="/mail-send.php" id="form-checkout">
+                <form action="/mail-send.php" id="form-checkout" method="post">
                     <div class="form-group mb-5">
                         <label for="user-name--checkout" class="label-placeholder">Ваше имя</label>
                         <input type="text" name="name" class="form-control" id="user-name--checkout" required>
