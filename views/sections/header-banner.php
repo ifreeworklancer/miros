@@ -1,5 +1,7 @@
 <!-- Heaeder Banner -->
-<section id="header-banner" style="background-image: url('images/bg/header-banner-bg.jpg');">
+<section id="header-banner" style="background-image: url('/images/bg/header-banner-bg.jpg');">
+    <div class="video-container" data-src="/video/miros.mp4"></div>
+
     <div class="container h-100 d-flex align-items-center position-relative">
         <div class="row">
             <div class="col-sm-10 col-lg-6 p-0">
