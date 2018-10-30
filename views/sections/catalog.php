@@ -56,7 +56,7 @@ $products = [
                     <div class="catalog-item">
                         <div class="catalog-item-prev">
                             <div class="catalog-item-prev-img"
-                                 data-img="/images/products/<?= $product['preview'] ?>"
+                                 data-img="/images/products/<?= $product['img1'] ?>"
                                  style="background-image: url('/images/products/<?= $product['img1'] ?>');"></div>
                         </div>
                         <div class="catalog-item-content">
