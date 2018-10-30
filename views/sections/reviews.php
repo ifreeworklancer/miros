@@ -47,7 +47,7 @@ $reviews = [
                             <p class="reviews-slider-item-content__descr">
 								<?= $review['body'] ?>
                             </p>
-                            <div class="reviews-slider-item-content-info">
+                            <div class="reviews-slider-item-content-info small">
                                 <div class="reviews-slider-item-content-info__name">
 									<?= $review['name'] ?>
                                 </div>
