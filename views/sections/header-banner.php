@@ -25,21 +25,21 @@
                 </div>
                 <ul class="social-content-list list-unstyled d-flex">
                     <li class="social-content-list-item social-content-list-item--facebook mr-4">
-                        <a href="#">
+                        <a href="https://www.facebook.com/walletsmiros/" target="_blank">
                             <svg width="20" height="20">
                                 <use xlink:href="#facebook-icon"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-content-list-item social-content-list-item--instagram mr-4">
-                        <a href="#">
+                        <a href="https://www.instagram.com/miros_ua/" target="_blank">
                             <svg width="20" height="20">
                                 <use xlink:href="#instagram-icon"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-content-list-item social-content-list-item--youtube">
-                        <a href="#">
+                        <a href="https://www.youtube.com/channel/UCcml3jMc5inyOL8xc7z3UjQ" target="_blank">
                             <svg width="20" height="20">
                                 <use xlink:href="#youtube-icon"></use>
                             </svg>
