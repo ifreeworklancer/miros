@@ -2,15 +2,21 @@
 <section id="header-banner" style="background-image: url('/images/bg/header-banner-bg.jpg');">
     <div class="video-container" data-src="/video/miros.mp4"></div>
 
-    <div class="container h-100 d-flex align-items-center position-relative">
+    <div class="container h-100 d-flex flex-column justify-content-center position-relative">
+        <div class="personage" data-paroller-factor="0.1" data-paroller-type="foreground"
+             data-paroller-direction="vertical">
+            <img src="/images/content/man_Miros.png" alt="">
+        </div>
+
         <div class="row">
-            <div class="col-sm-10 col-lg-6 p-0">
+            <div class="col-sm-10 col-lg-8 p-0">
                 <div class="header-banner-item text-white">
                     <h1 class="section-title text-uppercase">
-                        Кожаные кошельки ручной работы
+                        Кожаные кошельки<br>ручной работы
                     </h1>
-                    <p class="header-banner-item__text my-4">
-                        Именная гравировка в подарок. Пожизненная гарантия.
+                    <p class="lead-md my-4">
+                        Пожизненная гарантия.<br>
+                        Именная гравировка в подарок.
                     </p>
                     <a href="#catalog" class="btn btn-decor scroll-link">
                         в каталог

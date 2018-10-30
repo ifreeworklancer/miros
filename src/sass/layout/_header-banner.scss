@@ -1,79 +1,95 @@
 #header-banner {
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    max-height: 1080px;
-    min-height: 600px;
-    overflow: hidden;
-    z-index: 2;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-height: 1080px;
+  min-height: 600px;
+  overflow: hidden;
+  z-index: 2;
 
-    @media (max-width: map_get($grid-breakpoints, sm)) {
-        padding: 120px 0 50px;
-        height: auto;
-    }
+  @media (max-width: map_get($grid-breakpoints, sm)) {
+    padding: 120px 0 50px;
+    height: auto;
+  }
 
-    .container {
-        z-index: 10;
-    }
+  .container {
+    z-index: 10;
+  }
+}
+
+.personage {
+  left: 100%;
+  margin-left: -160px;
+  bottom: -50px;
+  width: 282/1.5 * 1px;
+  height: 580/1.5 * 1px;
+  position: absolute;
+
+  @media (min-width: map_get($grid-breakpoints, md)) {
+    bottom: 100px;
+    width: 282px;
+    height: 580px;
+    margin-left: -200px;
+  }
 }
 
 .video-container {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 5;
 
-    video {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: auto;
-        height: auto;
-        min-width: 100%;
-        min-height: 100%;
-        transform: translate(-50%, -50%);
-    }
+  video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .header-banner-item {
-    position: relative;
-    padding: 65px 0;
+  position: relative;
+  padding: 65px 0;
 
-    @media (max-width: map_get($grid-breakpoints, sm)) {
-        padding: 35px 15px;
-    }
+  @media (max-width: map_get($grid-breakpoints, sm)) {
+    padding: 35px 15px;
+  }
 
-    &::before {
-        content: '';
-        @extend %pos;
-        left: -1000px;
-        right: -1000px;
-        background: rgba(#000, .65);
-        z-index: -2;
-    }
+  &::before {
+    content: '';
+    @extend %pos;
+    left: -1000px;
+    right: -1000px;
+    background: rgba(#000, .65);
+    z-index: -2;
+  }
 }
 
 .header-banner-logo {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    padding-top: 750px;
-    width: 100%;
-    max-width: 700px;
-    @extend %img;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding-top: 750px;
+  width: 100%;
+  max-width: 700px;
+  @extend %img;
 }
 
 .header-banner-footer {
-    @extend %pos;
-    top: auto;
-    bottom: 50px;
-    z-index: 20;
+  @extend %pos;
+  top: auto;
+  bottom: 50px;
+  z-index: 20;
 
-    @media (max-width: map_get($grid-breakpoints, sm)) {
-        bottom: -60px;
-    }
+  @media (max-width: map_get($grid-breakpoints, sm)) {
+    bottom: -60px;
+  }
 }

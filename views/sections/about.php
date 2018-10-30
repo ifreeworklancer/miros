@@ -20,11 +20,11 @@
                     <h2 class="section-title">
                         Мы вложили душу в нашу продукцию
                     </h2>
-                    <p class="about-item__text">
-                        Собственное производство - это гарантия контроля качества на всех этапах.
+                    <p>
+                        Собственное производство — это гарантия контроля качества на всех этапах.
                     </p>
-                    <div class="about-item__text">
-                        Только натуральная кожа высшего сорта. Мы лично выбираем лучшую кожу для произзводства.
+                    <div>
+                        Только натуральная кожа высшего сорта. Мы лично выбираем лучшую кожу для производства.
                     </div>
                 </div>
             </div>
@@ -32,11 +32,11 @@
                 data-paroller-direction="vertical"></div>
             <div class="parallax-item about-parallax-item-left" data-paroller-factor="0.3" data-paroller-type="foreground"
                 data-paroller-direction="vertical">
-                <img src="images/content/parallax/about/w-01.png" style="margin-left: -90px;" alt="">
+                <img src="/images/content/parallax/about/w-01.png" style="margin-left: -90px;" alt="">
             </div>
             <div class="parallax-item about-parallax-item-right" data-paroller-factor="0.3" data-paroller-type="foreground"
                 data-paroller-direction="vertical">
-                <img src="images/content/parallax/about/w-02.png" alt="">
+                <img src="/images/content/parallax/about/w-02.png" alt="">
             </div>
         </div>
     </div>

@@ -55,7 +55,7 @@ require('paroller.js');
   /**
    * Parallax
    */
-  $('.parallax-item').paroller();
+  $('.parallax-item, .personage').paroller();
 
   /**
    * Tabs

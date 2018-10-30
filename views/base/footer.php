@@ -33,9 +33,8 @@
         <div class="decor-border"></div>
         <div class="decor-square"></div>
 
-        <div class="parallax-item" data-paroller-factor="0.1" data-paroller-type="foreground"
-             data-paroller-direction="vertical"
-             style="left: 100%; margin-left: -200px; bottom: 0; width: 282px; height: 580px; position: absolute;">
+        <div class="personage" data-paroller-factor="0.1" data-paroller-type="foreground"
+             data-paroller-direction="vertical">
             <img src="/images/content/man_Miros.png" alt="">
         </div>
     </div>
