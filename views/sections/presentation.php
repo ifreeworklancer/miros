@@ -4,7 +4,7 @@
         <div class="row position-relative">
             <div class="col-sm-7 col-lg-5 p-sm-0">
                 <div class="presentation-item text-white">
-                    <h2 class="section-title">
+                    <h2 class="section-title mb-4">
                         Качество нашей продукции
                     </h2>
 <!--                    <p class="section-description my-4">-->
