@@ -1,8 +1,9 @@
 import jquery from 'jquery';
 import Flickity from 'flickity';
+import 'flickity/dist/flickity.css';
+import IMask from 'imask';
 
 window.jQuery = window.$ = jquery;
-import 'flickity/dist/flickity.css';
 
 require('paroller.js');
 
@@ -95,7 +96,7 @@ require('paroller.js');
     const name = $(this).parents('.catalog-item').find('.catalog-item-content-description__name').text();
     const value = $(this).parents('.catalog-item').find('.catalog-item-content-description__value').text();
     const img = $(this).parents('.catalog-item').find('.catalog-item-prev-img').data('img');
-    
+
     var redirect = $(this).attr('href');
 
     if (redirect.length > 1) {
@@ -183,9 +184,9 @@ require('paroller.js');
   }
 
 
-  window.mobilecheck = function() {
+  window.mobilecheck = function () {
     var check = false;
-    (function(a) {
+    (function (a) {
       if (
         /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(
           a
@@ -202,7 +203,11 @@ require('paroller.js');
   if (!mobilecheck()) {
     let $video = $('.video-container');
     const $link = $video.data('src');
-    $video.html('<video src="'+ $link +'" loop muted autoplay></video>')
+    $video.html('<video src="' + $link + '" loop muted autoplay></video>')
   }
+
+  new IMask($('[type="tel"]'), {
+    mask: '+{380} (00) 000-00-00'
+  });
 
 })(jQuery);
