@@ -31,7 +31,7 @@ $products = [
                         </div>
                         <div class="catalog-item-content">
                             <div class="catalog-item-content-img"
-                                 style="background-image: url('/images/products/<?= $product['img1'] ?>');"></div>
+                                 style="background-image: url('/images/products/<?= $product['img2'] ?>');"></div>
                             <div class="catalog-item-content-description">
                                 <div class="catalog-item-content-description__name">
 									<?= $product['title'] ?>
