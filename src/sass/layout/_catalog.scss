@@ -66,6 +66,13 @@
         z-index: -3;
         transition-delay: .35s;
 
+        &-nav {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
         .btn {
             flex: 1 0 auto;
             opacity: .8;
@@ -135,7 +142,6 @@
         }
 
         &--more {
-
             &::before {
                 content: '';
                 @extend %pos;
@@ -147,7 +153,6 @@
 
 
     &:hover {
-
         .catalog-item-prev {
             transform: rotateX(180deg);
             transition-delay: 0s;
