@@ -22,15 +22,15 @@ require('paroller.js');
     }
   });
 
-
+  const $formControl = $('.form-control');
   /**
    * Form-label
    */
-  $('.form-control').on('focus', function () {
+  $formControl.on('focus', function () {
     $(this).parent().addClass('in-focus');
   });
 
-  $('.form-control').on('blur', function () {
+  $formControl.on('blur', function () {
     if ($(this).val() !== "") {
       $(this).parent().addClass('in-focus');
     } else {
@@ -49,7 +49,7 @@ require('paroller.js');
     } else {
       $('#app-header').removeClass('is-fixed');
     }
-  })
+  });
 
   /**
    * Parallax
