@@ -31,7 +31,7 @@
             </div>
             <div class="col-12">
                 <div class="presentation-btn text-right">
-                    <a href="#catelog" class="btn btn-simple scroll-link">
+                    <a href="#catalog" class="btn btn-simple scroll-link">
                         Оформить заказ
                     </a>
                 </div>
