@@ -115,7 +115,7 @@ require('paroller.js');
       "</div></div><div class='purchased-wallet__img'><img src='" + img + "' alt='" + name + "')>");
 
     $('#checkout-title').text('Оформить заказ');
-    $('#checkout-btn').text('Перейти к оплате');
+    $('#checkout-btn').text('Оформить');
     $('[name="wallet"]').val(id);
 
     if ($(scroll).length) {
