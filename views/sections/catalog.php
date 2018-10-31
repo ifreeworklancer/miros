@@ -49,19 +49,21 @@ $products = [
                 </h2>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row no-gutters justify-content-center">
 
 			<?php foreach ($products as $product) : ?>
-                <div class="col-sm-6 col-lg-4 p-0">
-                    <div class="catalog-item">
+                <div class="col-sm-6 col-lg-4">
+                    <article class="catalog-item">
                         <div class="catalog-item-prev">
                             <div class="catalog-item-prev-img"
                                  data-img="/images/products/<?= $product['img1'] ?>"
                                  style="background-image: url('/images/products/<?= $product['img1'] ?>');"></div>
                         </div>
+
                         <div class="catalog-item-content">
                             <div class="catalog-item-content-img"
                                  style="background-image: url('/images/products/<?= $product['img2'] ?>');"></div>
+
                             <div class="catalog-item-content-description">
                                 <div class="catalog-item-content-description__name">
 									<?= $product['title'] ?>
@@ -70,12 +72,13 @@ $products = [
 									<?= $product['price'] ?>
                                 </div>
                             </div>
+
                             <div class="catalog-item-content-nav d-flex">
                                 <a href="#checkout" class="btn btn-decor catalog-item-btn__sale scroll-link"
                                    data-wallet="<?= $product['title'] ?>">Заказать</a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
 			<?php endforeach; ?>
 
