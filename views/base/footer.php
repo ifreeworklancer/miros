@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="decor-border"></div>
-        <div class="decor-square"></div>
+<!--        <div class="decor-square"></div>-->
 
         <div class="personage" data-paroller-factor="0.1" data-paroller-type="foreground"
              data-paroller-direction="vertical">

@@ -46,16 +46,16 @@
     .section-title {
         margin: 0 auto 25px;
         max-width: 340px;
-        @extend %square-decor;
-
-        &::before {
-            z-index: -2;
-            left: 90px;
-
-            @media (max-width: map_get($grid-breakpoints, md)) {
-                left: 30px;
-            }
-        }
+        //@extend %square-decor;
+        //
+        //&::before {
+        //    z-index: -2;
+        //    left: 90px;
+        //
+        //    @media (max-width: map_get($grid-breakpoints, md)) {
+        //        left: 30px;
+        //    }
+        //}
     }
 
     &__text {

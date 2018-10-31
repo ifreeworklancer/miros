@@ -6,20 +6,20 @@
         right: -70px;
     }
 
-    &::before {
-        content: '';
-        position: absolute;
-        right: 90px;
-        bottom: 0;
-        width: 520px;
-        height: 270px;
-        border: 80px solid $light;
-        border-bottom: none;
-
-        @media (max-width: map_get($grid-breakpoints, md)) {
-            display: none;
-        }
-    }
+    //&::before {
+    //    content: '';
+    //    position: absolute;
+    //    right: 90px;
+    //    bottom: 0;
+    //    width: 520px;
+    //    height: 270px;
+    //    border: 80px solid $light;
+    //    border-bottom: none;
+    //
+    //    @media (max-width: map_get($grid-breakpoints, md)) {
+    //        display: none;
+    //    }
+    //}
 }
 
 .catalog-item {
