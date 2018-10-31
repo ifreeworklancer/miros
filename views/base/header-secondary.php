@@ -47,47 +47,19 @@
         /></noscript>
     <!-- End Facebook Pixel Code -->
 
-    <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1979206859020901');
-      fbq('track', 'PageView');
-      fbq('track', 'CompleteRegistration');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=1979206859020901&ev=PageView&noscript=1"
-        /></noscript>
-    <!-- End Facebook Pixel Code -->
-
-    <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '264654440978563');
-      fbq('track', 'PageView');
-      fbq('track', 'CompleteRegistration');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=264654440978563&ev=PageView&noscript=1"
-        /></noscript>
-    <!-- End Facebook Pixel Code -->
-
 </head>
 
 <body>
+
+<img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=1979206859020901&ev=PageView&noscript=1"/>
+<img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=1979206859020901&ev=CompleteRegistration&noscript=1"/>
+
+<img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=264654440978563&ev=PageView&noscript=1"/>
+<img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=264654440978563&ev=CompleteRegistration&noscript=1"/>
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="facebook-icon" viewBox="0 0 455.73 455.73">

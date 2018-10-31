@@ -57,28 +57,6 @@
         /></noscript>
     <!-- End Facebook Pixel Code -->
 
-    <!-- Facebook Pixel Code -->
-<!--    <script>-->
-<!--      fbq('init', '1979206859020901');-->
-<!--      fbq('track', 'PageView');-->
-<!--      fbq('track', 'ViewContent');-->
-<!--    </script>-->
-<!--    <noscript>-->
-<!--        -->
-<!--    </noscript>-->
-
-
-    <!-- End Facebook Pixel Code -->
-
-    <!-- Facebook Pixel Code -->
-<!--    <script>-->
-<!--      fbq('init', '264654440978563');-->
-<!--      fbq('track', 'PageView');-->
-<!--      fbq('track', 'ViewContent');-->
-<!--    </script>-->
-<!--    <noscript></noscript>-->
-    <!-- End Facebook Pixel Code -->
-
 </head>
 
 <body>
