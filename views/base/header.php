@@ -58,30 +58,40 @@
     <!-- End Facebook Pixel Code -->
 
     <!-- Facebook Pixel Code -->
-    <script>
-      fbq('init', '1979206859020901');
-      fbq('track', 'PageView');
-      fbq('track', 'ViewContent');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=1979206859020901&ev=PageView&noscript=1"
-        /></noscript>
+<!--    <script>-->
+<!--      fbq('init', '1979206859020901');-->
+<!--      fbq('track', 'PageView');-->
+<!--      fbq('track', 'ViewContent');-->
+<!--    </script>-->
+<!--    <noscript>-->
+<!--        -->
+<!--    </noscript>-->
+
+
     <!-- End Facebook Pixel Code -->
 
     <!-- Facebook Pixel Code -->
-    <script>
-      fbq('init', '264654440978563');
-      fbq('track', 'PageView');
-      fbq('track', 'ViewContent');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=264654440978563&ev=PageView&noscript=1"
-        /></noscript>
+<!--    <script>-->
+<!--      fbq('init', '264654440978563');-->
+<!--      fbq('track', 'PageView');-->
+<!--      fbq('track', 'ViewContent');-->
+<!--    </script>-->
+<!--    <noscript></noscript>-->
     <!-- End Facebook Pixel Code -->
 
 </head>
 
 <body>
+
+<img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=1979206859020901&ev=PageView&noscript=1" />
+<img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=1979206859020901&ev=ViewContent&noscript=1" />
+
+<img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=264654440978563&ev=PageView&noscript=1"/>
+<img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=264654440978563&ev=ViewContent&noscript=1"/>
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="facebook-icon" viewBox="0 0 455.73 455.73">
