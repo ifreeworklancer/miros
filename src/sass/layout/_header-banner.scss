@@ -20,7 +20,7 @@
 
 .personage {
   left: 100%;
-  margin-left: -160px;
+  margin-left: -180px;
   bottom: -50px;
   width: 282/1.5 * 1px;
   height: 580/1.5 * 1px;
@@ -28,8 +28,8 @@
 
   @media (min-width: map_get($grid-breakpoints, md)) {
     bottom: 75px;
-    width: 282px;
-    height: 580px;
+    width: 282/1.15 * 1px;
+    height: 580/1.15 * 1px;
     margin-left: -200px;
   }
 }
