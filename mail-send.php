@@ -64,6 +64,26 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 
 	try {
 		mail($to, $subject, $message, $headers);
+
+		$params = [
+			'fullname' => $name,
+			'phone' => $phone,
+			'email' => $email,
+			'u' => 1,
+			'f' => 1,
+			's' => '',
+			'c' => 0,
+			'm' => 0,
+			'act' => 'sub',
+			'v' => 2
+		];
+
+		$curl = curl_init();
+
+		curl_setopt($curl, CURLOPT_URL, 'https://miroswalletstd74.activehosted.com/proc.php?' . http_build_query($params) . '&jsonp=true');
+		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+		curl_exec($curl);
+		curl_close($curl);
 	} catch (Exception $exception) {
 	}
 
