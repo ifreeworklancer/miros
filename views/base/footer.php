@@ -8,15 +8,15 @@
                 <form action="/mail-send.php" id="form-checkout" method="post">
                     <div class="form-group mb-5">
                         <label for="user-name--checkout" class="label-placeholder">Ваше имя</label>
-                        <input type="text" name="name" class="form-control" id="user-name--checkout" required>
+                        <input type="text" name="name" class="form-control" id="user-name--checkout" autocomplete="off" required>
                     </div>
                     <div class="form-group mb-5">
                         <label for="user-phone--checkout" class="label-placeholder">Ваш Телефон</label>
-                        <input type="tel" name="phone" class="form-control" id="user-phone--checkout" required>
+                        <input type="tel" name="phone" class="form-control" id="user-phone--checkout" autocomplete="off" required>
                     </div>
                     <div class="form-group mb-5">
                         <label for="user-email--checkout" class="label-placeholder">Ваш E-mail</label>
-                        <input type="email" name="email" class="form-control" id="user-email--checkout" required>
+                        <input type="email" name="email" class="form-control" id="user-email--checkout" autocomplete="off" required>
                     </div>
 
                     <div class="purchased-wallet d-flex align-items-center mb-5">

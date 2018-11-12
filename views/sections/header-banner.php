@@ -1,4 +1,18 @@
 <!-- Heaeder Banner -->
+<div class="leaving" style="display: none">
+    <div class="leaving-container">
+        <h2>Получите подарок!</h2>
+        <p>Оформите любую покупку на сайте и получите абсолютно бесплатно брелок!</p>
+
+        <div>
+            <a href="#" class="btn btn-decor" data-leaving-close>
+                Вернуться
+            </a>
+        </div>
+    </div>
+</div>
+<div class="leaving-outer" style="display: none"></div>
+
 <section id="header-banner" style="background-image: url('/images/bg/header-banner-bg.jpg');">
     <div class="video-container" data-src="/video/miros.mp4"></div>
 
@@ -9,7 +23,7 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-10 col-lg-8 p-0">
+            <div class="col-lg-6 p-0">
                 <div class="header-banner-item text-white">
                     <h1 class="section-title text-uppercase">
                         Кожаные кошельки<br>ручной работы
@@ -22,6 +36,30 @@
                         в каталог
                     </a>
                 </div>
+            </div>
+
+            <div class="col-lg-5">
+                <h5 class="section-title mb-3 mt-5 text-white">
+                    Заполни форму и получи PDF по уходу за кожанными изделиями БЕСПЛАТНО!
+                </h5>
+                <form action="/mail-send.php" method="post" id="leadmagnit">
+                    <input type="hidden" name="leadmagnit" value="1">
+                    <div class="form-group mb-4">
+                        <label for="user-name--checkout" class="label-placeholder">Ваше имя</label>
+                        <input type="text" name="name" class="form-control" id="user-name--checkout" autocomplete="off" required>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="user-phone--checkout" class="label-placeholder">Ваш Телефон</label>
+                        <input type="tel" name="phone" class="form-control" id="user-phone--checkout" autocomplete="off" required>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="user-email--checkout" class="label-placeholder">Ваш E-mail</label>
+                        <input type="email" name="email" class="form-control" id="user-email--checkout" autocomplete="off" required>
+                    </div>
+                    <div>
+                        <button id="checkout-btn" class="btn btn-decor">Отправить</button>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="header-banner-footer d-flex justify-content-center justify-content-sm-end">
@@ -85,5 +123,6 @@
         </div>
     </div>
     -->
-    <div class="header-banner-logo d-none d-sm-block" style="background-image: url('/images/icon/logo/logo-big.png');"></div>
+    <div class="header-banner-logo d-none d-sm-block"
+         style="background-image: url('/images/icon/logo/logo-big.png');"></div>
 </section>

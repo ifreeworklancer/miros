@@ -1,0 +1,45 @@
+.leaving {
+  position: fixed;
+  left: 15px;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid rgb(54, 54, 54);
+  background-image: linear-gradient(63deg, rgb(35,34,33) 0%, rgb(9,9,9) 100%);
+  max-width: 760px;
+  z-index: 10000;
+  margin: auto;
+  color: #fff;
+
+  &-container {
+    border: 2px solid #fff;
+    padding: 20px 150px 20px 20px;
+    margin: 20px;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      width: 385/2 * 1px;
+      height: 189/2 * 1px;
+      background: url("/images/brelok.png") 125% 100% / 100% no-repeat;
+      right: -15px;
+      bottom: -15px;
+      content: '';
+    }
+
+    @media (min-width: map_get($grid-breakpoints, md)) {
+      padding: 40px 200px 40px 40px;
+      margin: 40px;
+
+      &::before {
+        width: 385px;
+        height: 189px;
+        right: -60px;
+      }
+    }
+  }
+
+  &-outer {
+    @extend .outer;
+  }
+}

@@ -9,7 +9,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
-	$package = $_POST['wallet'];
+	$package = isset($_POST['wallet']) ? $_POST['wallet'] : null;
 
 	/**
 	 * RetailCRM create order
@@ -21,13 +21,15 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 	);
 
 	try {
-		$response = $client->request->ordersCreate([
-			'firstName' => $name,
-			'email' => $email,
-			'phone' => str_replace(['(', ')', '-', ' '], '', $phone),
-			'customerComment' => $package,
-			'orderMethod' => 'top-lead',
-		]);
+		if ($package) {
+			$response = $client->request->ordersCreate([
+				'firstName' => $name,
+				'email' => $email,
+				'phone' => str_replace(['(', ')', '-', ' '], '', $phone),
+				'customerComment' => $package,
+				'orderMethod' => 'top-lead',
+			]);
+		}
 	} catch (\RetailCrm\Exception\CurlException $e) {
 	}
 
@@ -50,6 +52,10 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 
 	if (!empty($package)) {
 		$message .= "<p>Кошелек: {$package}</p>\"";
+	}
+
+	if (!empty($_POST['leadmagnit'])) {
+		$package .= "<p>Лидмагнит PDF.</p>";
 	}
 
 	$message .= "
@@ -75,12 +81,13 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 			'c' => 0,
 			'm' => 0,
 			'act' => 'sub',
-			'v' => 2
+			'v' => 2,
 		];
 
 		$curl = curl_init();
 
-		curl_setopt($curl, CURLOPT_URL, 'https://miroswalletstd74.activehosted.com/proc.php?' . http_build_query($params) . '&jsonp=true');
+		curl_setopt($curl, CURLOPT_URL,
+			'https://miroswalletstd74.activehosted.com/proc.php?' . http_build_query($params) . '&jsonp=true');
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 		curl_exec($curl);
 		curl_close($curl);

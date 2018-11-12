@@ -240,7 +240,20 @@ require('paroller.js');
   $(document).on('keyup', function (e) {
     if (e.keyCode === 27) {
       $('.outer').remove();
+      $('.leaving, .leaving-outer').fadeOut();
     }
-  })
+  });
 
+  var leaving = 0;
+  $(document).on('mouseleave', () => {
+    if (!leaving && $('.leaving')) {
+      $('.leaving, .leaving-outer').fadeIn();
+    }
+    leaving = 1;
+  });
+
+  $('[data-leaving-clone]').add('.leaving-outer').on('click', (e) => {
+    e.preventDefault();
+    $('.leaving, .leaving-outer').fadeOut();
+  });
 })(jQuery);
