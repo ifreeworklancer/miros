@@ -4,8 +4,5 @@
         "lis-dev/nova-poshta-api-2": "dev-master",
       "ext-json": "*",
       "ext-curl": "*"
-    },
-    "autoload": {
-        "psr-0": { "App\\": "" }
     }
 }
