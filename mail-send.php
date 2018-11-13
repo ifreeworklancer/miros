@@ -1,6 +1,6 @@
 <?php
 
-require_once(__DIR__ . '/vendor/autoload.php');
+require_once ('app/Sender.php');
 
 if (isset($_POST['name']) && isset($_POST['email'])) {
 	$sender = new \App\Sender(
