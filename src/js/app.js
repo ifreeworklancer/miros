@@ -256,4 +256,23 @@ require('paroller.js');
     e.preventDefault();
     $('.leaving, .leaving-outer').fadeOut();
   });
+
+
+  $('[name="city"]').on('change', function (e) {
+    const city = e.target.value;
+
+    $.ajax({
+      url: '/novaposhta.php',
+      method: 'post',
+      data: {city: city},
+      success: function (data) {
+        const list = JSON.parse(data).data;
+        list.forEach(w => {
+          $('[name="warehouses"]').parent().fadeIn();
+          $('[name="warehouses"]')
+            .html('<option value="'+ w.DescriptionRu +'">'+ w.DescriptionRu +'</option>')
+        })
+      }
+    })
+  })
 })(jQuery);

@@ -10,17 +10,19 @@
   z-index: 10000;
   margin: auto;
   color: #fff;
+  max-height: 96%;
+  overflow-y: auto;
 
   &-container {
     border: 2px solid #fff;
-    padding: 20px 150px 20px 20px;
+    padding: 20px;
     margin: 20px;
     position: relative;
 
     &::before {
       position: absolute;
-      width: 385/2 * 1px;
-      height: 189/2 * 1px;
+      width: 314/2 * 1px;
+      height: 175/2 * 1px;
       background: url("/images/brelok.png") 125% 100% / 100% no-repeat;
       right: -15px;
       bottom: -15px;
@@ -32,8 +34,8 @@
       margin: 40px;
 
       &::before {
-        width: 385px;
-        height: 189px;
+        width: 314px;
+        height: 175px;
         right: -60px;
       }
     }

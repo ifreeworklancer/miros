@@ -76,7 +76,7 @@
   }
 }
 
-#form-checkout, #leadmagnit {
+#form-checkout, #leadmagnit, #brelok {
   button {
     color: #fff;
 
@@ -85,14 +85,35 @@
     }
   }
 
+  .fc-wrapper {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 60px;
+      height: 2px;
+      background: #7f7f7f;
+      transition: .5s;
+    }
+  }
+
+  select.form-control {
+    appearance: none;
+    background-color: transparent;
+    color: #7f7f7f;
+    padding-left: 0;
+  }
+
   .form-group {
     position: relative;
 
     &.in-focus {
-
       .label-placeholder {
         bottom: 100%;
         font-size: 14px;
+        margin-bottom: 0;
       }
 
       &::before {
@@ -131,4 +152,5 @@
 .form-control {
   position: relative;
   z-index: 1000;
+  height: 36px;
 }

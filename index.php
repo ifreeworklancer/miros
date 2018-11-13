@@ -1,7 +1,8 @@
 <?php
 
-require_once('views/base/header.php');
+require_once (__DIR__ . '/vendor/autoload.php');
 
+require_once('views/base/header.php');
 
 $sections = [
 	'header-banner',
