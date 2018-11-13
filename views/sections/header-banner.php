@@ -1,4 +1,4 @@
-<?php require (__DIR__ . '/../../app/NovaPoshta.php'); ?>
+<?php //require (__DIR__ . '/../../app/NovaPoshta.php'); ?>
 
 <div class="leaving" style="display: none">
     <div class="leaving-container">
