@@ -1,6 +1,6 @@
 <?php
 
-use App\NovaPoshta;
+require (__DIR__ . '/../../app/NovaPoshta.php');
 
 ?>
 
