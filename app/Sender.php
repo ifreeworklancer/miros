@@ -1,10 +1,8 @@
 <?php
 
-namespace App;
+use RetailCrm\ApiClient;
 
 require_once (__DIR__ . '/../vendor/retailcrm/api-client-php/lib/RetailCrm/ApiClient.php');
-
-use RetailCrm\ApiClient;
 
 class Sender
 {
