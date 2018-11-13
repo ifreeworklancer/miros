@@ -3,7 +3,7 @@
 require_once ('app/Sender.php');
 
 if (isset($_POST['name']) && isset($_POST['email'])) {
-	$sender = new \App\Sender(
+	$sender = new Sender(
 		'mirosopt@gmail.com',
 		$_POST['name'],
 		$_POST['email'],

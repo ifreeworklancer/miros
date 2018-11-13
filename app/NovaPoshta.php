@@ -1,7 +1,5 @@
 <?php
 
-namespace App;
-
 require_once (__DIR__ . '/../vendor/lis-dev/nova-poshta-api-2/src/Delivery/NovaPoshtaApi2.php');
 
 use LisDev\Delivery\NovaPoshtaApi2;
