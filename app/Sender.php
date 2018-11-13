@@ -2,7 +2,6 @@
 
 namespace App;
 
-use http\Exception;
 use RetailCrm\ApiClient;
 
 class Sender

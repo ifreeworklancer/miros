@@ -1,4 +1,4 @@
-<?php require_once (__DIR__ . '/../../vendor/autoload.php'); ?>
+<?php require_once (__DIR__ . '/../../app/NovaPoshta.php'); ?>
 
 <div class="leaving" style="display: none">
     <div class="leaving-container">
