@@ -1,9 +1,3 @@
-<?php
-
-require (__DIR__ . '/../../app/NovaPoshta.php');
-
-?>
-
 <div class="leaving" style="display: none">
     <div class="leaving-container">
         <h2>Уже уходите?</h2>
@@ -26,7 +20,7 @@ require (__DIR__ . '/../../app/NovaPoshta.php');
             <div class="mb-4 fc-wrapper pb-2">
                 <select name="city" class="form-control">
                     <option value="" disabled selected>Ваш город</option>
-					<?php foreach ((new \app\NovaPoshta())->getCities()['data'] as $city) : ?>
+					<?php foreach ((new App\NovaPoshta())->getCities()['data'] as $city) : ?>
                         <option value="<?= $city['Ref'] ?>">
 							<?= $city['DescriptionRu'] ?>
                         </option>
