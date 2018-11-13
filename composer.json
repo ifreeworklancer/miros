@@ -3,7 +3,6 @@
         "retailcrm/api-client-php": "^5.1",
         "lis-dev/nova-poshta-api-2": "dev-master",
       "ext-json": "*",
-      "ext-http": "*",
       "ext-curl": "*"
     },
     "autoload": {
